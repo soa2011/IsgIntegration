@@ -85,8 +85,8 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:refTargetType>ProductProvider</sch:refTargetType>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:refTargetType></sch:refTargetType>
             <sch:label>ProductProvider</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
