@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="InteractionMode">
+    <sch:name>InteractionMode</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Real-time Synchronous</sch:displayValue>
+            <sch:dataValue>Real-time Synchronous</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Near-real-time Asynchronous</sch:displayValue>
+            <sch:dataValue>Near-real-time Asynchronous</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Scheduled offline</sch:displayValue>
+            <sch:dataValue>Scheduled offline</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>On-demand offline</sch:displayValue>
+            <sch:dataValue>On-demand offline</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>

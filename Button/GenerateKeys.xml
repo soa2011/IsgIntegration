@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="GenerateKeys">
+    <sch:name>GenerateKeys</sch:name>
+    <sch:label>Generate Keys</sch:label>
+    <sch:behavior>ExecuteMethod</sch:behavior>
+    <sch:bmfTransactionName>GenerateKeys</sch:bmfTransactionName>
+    <sch:content></sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+    <sch:bmfTransaction isRef="true">GenerateKeys</sch:bmfTransaction>
+</sch:Button>
