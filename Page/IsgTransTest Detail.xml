@@ -750,13 +750,13 @@
     <sch:buttons>
         <sch:BmfPageButton>
             <sch:seqNumber>300</sch:seqNumber>
-            <sch:buttonName>TestButton1</sch:buttonName>
+            <sch:buttonName>RunTest</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
             <sch:description></sch:description>
             <sch:showButton>true</sch:showButton>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfButton isRef="true">TestButton1</sch:bmfButton>
+            <sch:bmfButton isRef="true">RunTest</sch:bmfButton>
         </sch:BmfPageButton>
         <sch:BmfPageButton>
             <sch:seqNumber>400</sch:seqNumber>
