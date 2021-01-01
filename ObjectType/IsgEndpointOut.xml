@@ -192,6 +192,22 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
+            <sch:name>RESTRequestMethod</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName>RESTRequestMethod</sch:enumName>
+            <sch:length>32</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
             <sch:name>EndpointAdapter</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
@@ -320,10 +336,10 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Port</sch:name>
-            <sch:dataType>Integer</sch:dataType>
+            <sch:name>AuthType</sch:name>
+            <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length></sch:length>
+            <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -484,22 +500,6 @@
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>4096</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>RESTRequestMethod</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName>RESTRequestMethod</sch:enumName>
-            <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
