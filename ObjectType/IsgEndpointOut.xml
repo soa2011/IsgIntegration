@@ -338,7 +338,7 @@
         <sch:BmfObjectField>
             <sch:name>AuthType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
+            <sch:enumName>AuthType</sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
